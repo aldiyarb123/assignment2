@@ -13,7 +13,6 @@ public class SelectionSort {
                 }
             }
 
-            // Only swap if needed
             if (minIndex != i) {
                 int temp = arr[minIndex];
                 arr[minIndex] = arr[i];
@@ -22,4 +21,5 @@ public class SelectionSort {
         }
     }
 }
+
 
